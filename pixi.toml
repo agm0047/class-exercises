@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Anna Monson <agm0047@uah.edu>"]
+channels = ["conda-forge"]
+name = "class-exercises"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+ipykernel = ">=7.2.0,<8"
+pip = ">=26.0.1,<27"
